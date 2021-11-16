@@ -5,7 +5,7 @@ This project consists of an encrypted messaging application written in C++. It a
 The library used to provide encryption is Crypto++ (also known as CryptoPP), a free and open source C++ cryptography library. It is easily available on Github and on their website (https://www.cryptopp.com). I suggest pulling directly from the git repo as I’m about to demonstrate. My program requires version 8.2 of CryptoPP; to install the library on my Ubuntu machine, I ran the following:
 1. cd Documents
 2. git clone https://github.com/weidai11/cryptopp.git cryptopp
-a. This will create a folder called 'cryptopp' in the current directory
+> This will create a folder called 'cryptopp' in the current directory
 3. cd cryptopp
 4. make
 5. make test
@@ -16,6 +16,6 @@ Once this has successfully installed, enter the directory where the project file
 ## Running the Program
 The server must be run first, as it binds to a port and listens for connections. Both server and client are run in the following style -
 1. “./server [port number]”
->> example: “./server 12000”
+> example: “./server 12000”
 2. “./client [port number]”
->> example: “./client 12000”
+> example: “./client 12000”
