@@ -15,7 +15,7 @@ Once this has successfully installed, enter the directory where the project file
 
 ## Running the Program
 The server must be run first, as it binds to a port and listens for connections. Both server and client are run in the following style -
-1. “./server <port number>”
-        example: “./server 12000”
-2. “./client <port number>”
-        example: “./client 12000”
+1. “./server [port number]”
+>> example: “./server 12000”
+2. “./client [port number]”
+>> example: “./client 12000”
