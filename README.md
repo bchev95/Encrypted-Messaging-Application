@@ -9,13 +9,13 @@ a. This will create a folder called 'cryptopp' in the current directory
 3. cd cryptopp
 4. make
 5. make test
-    a. This just ensures that "make" ran successfully
+> This just ensures that "make" ran successfully
 6. sudo make install
 Once this has successfully installed, enter the directory where the project files are located and compile the program by typing "make". This will produce two executable ‘.o’ files, “server” and “client”.
 
 ## Running the Program
 The server must be run first, as it binds to a port and listens for connections. Both server and client are run in the following style -
-     “./server <port number>”
-        o example: “./server 12000”
-     “./client <port number>”
-        o example: “./client 12000”
+1. “./server <port number>”
+        example: “./server 12000”
+2. “./client <port number>”
+        example: “./client 12000”
