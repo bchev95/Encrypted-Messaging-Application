@@ -10,7 +10,7 @@ The library used to provide encryption is Crypto++ (also known as CryptoPP), a f
 4. make
 5. make test
 > This just ensures that "make" ran successfully
-6. sudo make install
+6. sudo make install  
 Once this has successfully installed, enter the directory where the project files are located and compile the program by typing "make". This will produce two executable ‘.o’ files, “server” and “client”.
 
 ## Running the Program
